@@ -1,0 +1,59 @@
+# Byte-compiled / Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# Local Ollama & AI Models
+.local_ollama/
+models/
+*.bin
+*.safetensors
+*.pt
+*.onnx
+
+# Secrets & API keys
+.env
+.env.*
+!.env.example
+key.py
+*.pem
+*.key
+
+# Application outputs & user uploads
+outputs/
+uploads/
+*.log
+
+# Operating System files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDE & Editor settings
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Distribution & Testing
+build/
+dist/
+*.egg-info/
+*.egg
+.pytest_cache/
+.coverage
+htmlcov/
